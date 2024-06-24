@@ -1,0 +1,61 @@
+.body1{
+     background-color:#eee;
+     font-family: sans-serif; 
+ }
+ .header{
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.form-box{
+    width: 400px;
+    height: 600px;
+    position: relative;
+    margin: 8% auto;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2);
+    background: white;
+    padding: 5px;
+    overflow: hidden;
+    border: 3px solid #f1f1f1;
+}
+.input-group{
+    top: 200px;
+    position: absolute;
+    width: 100%;
+}
+
+.input-field{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto ;
+    background: linear-gradient(to right,#5F9EA0,#06d6ff);
+    border: 0;
+    outline: none;
+    border-radius: 30px; 
+}
+.submit-btn:hover{
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+.checkbox{
+    margin: 30px 10px 30px 0;
+}
+.span{
+    color: #777;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}

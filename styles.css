@@ -1,0 +1,116 @@
+h1{
+    color: black;
+}
+p{
+    color: black;
+}
+.col-container1{
+    display: table;
+    width: 100%;
+}
+.column1{
+     width: 700px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 140px;
+}
+.column2{
+     width: 400px;
+    float: left;
+    margin: 10px;
+    margin-left: 80px;
+}
+.c01{
+     width: 700px;
+    float: left;
+    margin-left: 70px;
+    margin-right: 140px;
+}
+.co2{
+     width: 400px;
+    float: left;
+    margin: 10px;
+    margin-left: 80px;
+}
+
+#feature{
+    padding: 10px;
+    margin: 70px;
+    text-align: center;
+    font-size: 35;
+}
+.col-container{
+    display: table;
+    width: 100%;
+}
+.col-container2{
+    display: table;
+    width: 100%;
+}
+#col{
+    display: table-cell;
+}
+.C1{
+    background: #0e146a ;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    margin-left: 170px;
+    text-align:center;
+    width:350px;
+    height: 270px;
+    color: yellow;
+    
+}
+.C2{
+    background: #0d7ee1;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width:350px;
+    height: 270px;
+    color: white;
+}
+.C3{
+    background: #e5c132;
+    width: 300px;
+    float: left;
+    margin: 10px;
+    text-align: center;
+    width:350px;
+    height: 270px;
+    color: #0d7ee1;
+
+}
+.column2 h3{
+    color: aqua;
+}
+.co2 h3{
+    color: aqua;
+}
+.C1 h3{
+    
+    margin-top: 80px;
+}
+.C2 h3{
+    margin-top: 80px;
+}
+.C3 h3{
+    margin-top: 80px;
+}
+.C1 p{
+    margin-right: 40px;
+    margin-left: 40px
+}
+.C2 p{
+    margin-right: 40px;
+    margin-left: 40px
+}
+.C3 p{
+    margin-right: 40px;
+    margin-left: 40px
+}
+
+
+

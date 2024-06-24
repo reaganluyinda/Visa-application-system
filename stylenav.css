@@ -1,0 +1,128 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-image: url("africa.jpg");
+    background-size: cover;
+    font-family: sans-serif;
+}
+.body1{
+   margin: 0;
+    padding: 0;
+    background-color:#eee;
+    font-family: sans-serif; 
+}
+h5{
+  color: cadetblue;  
+}
+.col-sm{
+    color: cadetblue;
+}
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding: 0 100px;
+    background: cadetblue;
+    width: 100%;
+    box-sizing: border-box;
+}
+header .logo{
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ol {
+    padding: 0;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+}
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+header nav ul li a:hover,
+header nav ul li a:active{
+    color: #fff;
+    background: #3ad9f1;
+    text-decoration: none;
+    
+}nav ol li:hover,
+ nav ol li:active{
+  color: #fff;
+    background: #3ad9f1;
+    text-decoration: none; 
+    
+}
+ol li{
+    display: none;
+}
+ul li:hover ol li{
+    display: block;
+}
+.menu-toggle{
+    color: #fff;
+    float: right;
+    padding-top: 10px;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+/* media screens*/
+@media screen and (max-width:800px){
+    header{
+        padding: 0 20px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+     /*display: none;*/
+        position:absolute;
+        width: 100%;
+        height: calc(100vh-50px);
+        background:#333;
+        top: 50px;
+        left:-100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0;
+    }
+    header nav ul {
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0,0,0,.2);
+    }
+ }
+
+
+
+
+
+
+
+
+
